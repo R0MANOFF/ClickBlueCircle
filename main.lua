@@ -95,7 +95,7 @@ function love.load()
 		
 		------ circulo
 			if button.x + 1 >= 100 and button.x -1 <= (largura - 100) then -- aqui a condi��o de movimento
-				button.x = button.x - 350 * dt * button.w1
+				button.x = button.x - 650 * dt * button.w1
 
 				if button.x < 100 then
 					button.x = 100
@@ -107,7 +107,7 @@ function love.load()
 				end
 			end
 			if button.y + 1 >= 20 and button.y -1 <= (altura - 20) then -- aqui a condi��o de movimento
-				button.y = button.y - 350 * dt * button.w2
+				button.y = button.y - 650 * dt * button.w2
 
 				if button.y < 20 then
 					button.y = 20
